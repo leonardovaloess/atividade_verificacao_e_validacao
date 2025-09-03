@@ -1,7 +1,8 @@
 def sao_anagramas(string1, string2):
-    # TODO: Implementar a lógica
-    pass
+    s1 = string1.replace(" ", "").lower()
+    s2 = string2.replace(" ", "").lower()
 
+    return sorted(s1) == sorted(s2)
 
 def cifra_de_cesar(texto, deslocamento):
     # TODO: Implementar a lógica
