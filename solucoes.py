@@ -1,3 +1,6 @@
+import string
+
+
 def sao_anagramas(string1, string2):
     s1 = string1.replace(" ", "").lower()
     s2 = string2.replace(" ", "").lower()
@@ -25,7 +28,7 @@ def cifra_de_cesar(texto, deslocamento):
     return resultado
 
 
-def valida_cpf(cpf_string):
+def maior_palavra(frase):
     palavras = frase.split()
     maior_palavra = ""
     maior_tamanho = 0
